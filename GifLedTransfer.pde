@@ -138,7 +138,7 @@ void Run () {
       for (int j = 0; j < this.y_height; j = j + 1) {
         color d = get(i+a,221+j);
         pos = pos + 1;
-        this.output.println("leds["+pos+"].setRGB("+int(red(d))+","+int(green(d))+","+int(blue(d))+");");
+        this.output.println(pos+","+int(red(d))+","+int(green(d))+","+int(blue(d)));
       }
     }
   }
