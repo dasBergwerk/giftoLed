@@ -140,6 +140,7 @@ void Run () {
         pos = pos + 1;
         this.output.println(pos+","+int(red(d))+","+int(green(d))+","+int(blue(d)));
         //Kommentar fand ihn doch nicht so doof +++
+        // Verwirrend
       }
     }
   }
