@@ -129,13 +129,13 @@ void outputProcess (File selection) {
 }
 
 void Run () {
-  output = createWriter("gif.txt");
+  output = createWriter(outputPath+"/gif.txt");
   int a = 43-this.x_width;
   for (int b = 0; b < this.framenumber; b = b +1 ) {
     int pos = -1;
     a = a+this.x_width;
     for (int i = 0; i < this.x_width; i = i + 1) {
-      for (int j = 0; j < y.height; j = j + 1) {
+      for (int j = 0; j < this.y_height; j = j + 1) {
         color d = get(i+a,221+j);
         pos = pos + 1;
         this.output.println("leds["+pos+"].setRGB("+int(red(d))+","+int(green(d))+","+int(blue(d))+");");
