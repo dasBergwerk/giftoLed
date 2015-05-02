@@ -129,7 +129,10 @@ void outputProcess (File selection) {
 }
 
 void Run () {
-  output = createWriter(outputPath"gif.txt");
+  output = createWriter("outputPath/gif.txt");
+  this.output.flush();
+  this.output.close();
+  exit();
 }
 
 
