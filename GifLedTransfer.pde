@@ -139,7 +139,7 @@ void Run () {
         color d = get(i+a,221+j);
         pos = pos + 1;
         this.output.println(pos+","+int(red(d))+","+int(green(d))+","+int(blue(d)));
-        //Kommentar fand ihn doch nicht so doof
+        //Kommentar fand ihn doch nicht so doof +++
       }
     }
   }
