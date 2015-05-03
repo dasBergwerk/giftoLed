@@ -2,9 +2,9 @@
 
 Eine Ledmatrix zur Darstellung von animierten gifs mit Hilfe eines Arduinos Nano & Ledstrtrips mit ws2812b. Gesamte Projektdateien:
 
-1. Processing-Script (GifLedTransfer.pde): Animierte Gifs werden für Ledmatrix umgewandelt und die Daten auf einer SD-Karte für den arduino gespeichert.
-2. Arduino-Script(): Daten werden von der SD-Karte gelesen und die Ledmatrix wird angesteuert.
-3. Schaltplan(): Darstellung der Hardware mit Hilfe von Fritzing
+1. Processing-Script (GifLedTransfer.pde): Animierte Gifs werden für Ledmatrix umgewandelt und die Daten auf einer SD-Karte für den Arduino gespeichert.
+2. Arduino-Script(sketch_animated_gif): Daten werden von der SD-Karte gelesen und die Ledmatrix wird angesteuert.
+3. Schaltplan(Gif_Box_Led.fzz): Darstellung der Hardware mit Hilfe von Fritzing
 4. Stl() für Frontblende mit Diffusor, die mit Hilfe eines 3D-Druckers hergestellt werden.
 
 Einkaufsliste:
